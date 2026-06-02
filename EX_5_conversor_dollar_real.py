@@ -11,3 +11,7 @@
 
 
 
+cot = float(input("Digite a cotação do dollar: R$"))
+dol = float(input("Digite o valor em dollar a ser convetido para real:U$ "))
+
+print(f"O valor em reais é:  {dol*cot}")

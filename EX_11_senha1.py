@@ -15,3 +15,11 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+SENHA_CORRETA = "AC12"
+
+senha_digitada = input("Digite a senha: ")
+
+if senha_digitada == SENHA_CORRETA:
+    print("Senha correta")
+else:
+    print("Senha incorreta")
